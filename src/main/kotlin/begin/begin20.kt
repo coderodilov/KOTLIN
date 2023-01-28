@@ -11,6 +11,11 @@ fun main() {
         Junior dastyrchining 1 oylik maoshini aniqlang!!!
     """.trimIndent()
     println(begin20)
-    println()
+
+    print("Senior dasturchining 1 yillik maoshi $ = ")
+    val x = readln().toInt()
+    val maosh = (x / 12) / 3
+
+    println("Junior dasturchining oylik maoshi: $maosh")
 
 }
