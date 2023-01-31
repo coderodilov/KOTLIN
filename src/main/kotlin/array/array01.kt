@@ -5,9 +5,9 @@ package array
 * */
 fun main(){
     val array1 = """
-        Given an array of ints, return true if 6 appears as 
-        either the first or last element in the array. 
-        The array will be length 1 or more.
+Given an array of ints, return true if 6 appears as 
+either the first or last element in the array. 
+The array will be length 1 or more.
     """
     println(array1)
 
