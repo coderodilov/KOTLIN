@@ -11,13 +11,13 @@ fun main() {
     list.add(8)
 
     println(list)
-    println(doubling(list))
+    println(square(list))
 }
 
-fun doubling(nums: List<Int>): List<Int?> {
+fun square(nums: List<Int>): List<Int?> {
     val list = ArrayList<Int>()
     nums.forEach {
-        list.add(it * 2)
+        list.add(it * it)
     }
     return list
 }
