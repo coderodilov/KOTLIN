@@ -3,16 +3,18 @@ package array
 * Coder Odilov
 * 31.01.2023
 * */
-fun main(){
+fun main() {
     val array3 = """
-Given 2 arrays of ints, a and b, return true if they have 
-the same first element or they have the same last element. 
-Both arrays will be length 1 or more.
+Given an array of ints length 3, 
+return a new array with the elements in reverse order, 
+so {1, 2, 3} becomes {3, 2, 1}.
     """
     println(array3)
 
-    val a = intArrayOf(1,5,2,12,8,3,5)
-    val b = intArrayOf(9,5,2,6)
+    val a = intArrayOf(1, 2, 3, 4, 5)
+    val b = a.reversedArray()
 
-    println("Result = " + (a.last() == b.last() || a.first() == b.first()))
+    for (i in a) print("$i ")
+    println()
+    for (i in b) print("$i ")
 }
