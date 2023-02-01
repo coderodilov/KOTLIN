@@ -3,8 +3,14 @@ package functions
 * Coder Odilov
 * 31.01.2023
 * */
+
+/*
+* Given a list of integers, return a list where each integer is multiplied by 2.
+* */
+
 fun main() {
     val list = ArrayList<Int>()
+
     list.add(1)
     list.add(2)
     list.add(5)
@@ -14,9 +20,9 @@ fun main() {
     println(doubling(list))
 }
 
-fun doubling(nums: List<Int>): List<Int?> {
+fun doubling(numbs: List<Int>): List<Int?> {
     val list = ArrayList<Int>()
-    nums.forEach {
+    numbs.forEach {
         list.add(it * 2)
     }
     return list

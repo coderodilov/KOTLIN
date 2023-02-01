@@ -3,8 +3,14 @@ package functions
 * Coder Odilov
 * 31.01.2023
 * */
+
+/*
+* Given a list of strings, return a list where each string has "*" added at its end.
+* */
+
 fun main() {
     val list = ArrayList<String>()
+
     list.add("Shahzod")
     list.add("Coder")
     list.add("Odilov")
@@ -12,9 +18,9 @@ fun main() {
     println(addStar(list))
 }
 
-fun addStar(nums: List<String>): List<String?> {
+fun addStar(numbs: List<String>): List<String?> {
     val list = ArrayList<String>()
-    nums.forEach {
+    numbs.forEach {
         list.add(it.plus("*"))
     }
     return list
