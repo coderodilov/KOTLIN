@@ -4,13 +4,6 @@ package begin
 * 28.01.2023
 * */
 fun main() {
-    val begin13 = """
-        A B C nuqtalar berilgan.
-        AC va BC kesma uzunligi va
-        kesmalar uzunligi yigindisini aniqlang!
-    """.trimIndent()
-    println(begin13)
-
     print("a = ")
     val a = readln().toInt()
     print("b = ")

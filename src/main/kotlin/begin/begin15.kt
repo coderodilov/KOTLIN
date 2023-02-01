@@ -5,13 +5,6 @@ import kotlin.math.pow
 * 28.01.2023
 * */
 fun main() {
-    val begin15 = """
-        A soni berilgan.
-        pow(A,2), pow(A,4), pow(A,8)
-        darajalarini aniqlang!
-    """.trimIndent()
-    println(begin15)
-
     print("a = ")
     val a = readln().toDouble()
 

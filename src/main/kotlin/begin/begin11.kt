@@ -4,13 +4,6 @@ package begin
 * 28.01.2023
 * */
 fun main() {
-    val begin11 = """
-        A va B sonlari berilgan,
-        Ularning qiymatlarini almashtiring!
-        A = B    B = A
-    """.trimIndent()
-    println(begin11)
-
     print("a = ")
     var a = readln().toInt()
     print("b = ")
