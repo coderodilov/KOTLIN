@@ -1,4 +1,4 @@
-package functions
+package function
 /*
 * Coder Odilov
 * 01.02.2023
