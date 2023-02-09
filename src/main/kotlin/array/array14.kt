@@ -7,5 +7,3 @@ package array
 fun main() {
 
 }
-
-
