@@ -13,8 +13,9 @@ open class UserDetailsChecker : CheckerInterface{
         }
 
        fun checkUserDetails(name: String, mail: String, pass: String) : Boolean {
-        val checker = UserDetailsChecker()
-        return checker.checkName(name) && checker.checkMail(mail) && checker.checkPassword(pass) }
+           val checker = UserDetailsChecker()
+        return checker.checkName(name) && checker.checkMail(mail) && checker.checkPassword(pass)
+       }
 }
 
 

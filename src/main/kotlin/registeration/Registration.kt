@@ -1,4 +1,13 @@
 package registeration
+/*
+* Coder Odilov
+* 09.02.2023
+* */
+
+/*
+* Ro'yxatdan o'tish tizimini tashkil qiling,
+* bunda Data class, funksiya, List, interface dan foydalaning.
+* (Barchasidan foydalanish talab qilinadi)*/
 
 fun main(){
     print("Name: ")
@@ -24,5 +33,4 @@ fun registerUser(name: String, mail: String, pass: String) : ArrayList<UserModel
 
     return userList
 }
-
 
