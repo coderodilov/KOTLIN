@@ -1,4 +1,4 @@
-package registeration
+package registration
 /*
 * Coder Odilov
 * 09.02.2023

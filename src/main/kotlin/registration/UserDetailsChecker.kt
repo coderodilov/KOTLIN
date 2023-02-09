@@ -1,4 +1,4 @@
-package registeration
+package registration
 open class UserDetailsChecker : CheckerInterface{
         override fun checkName(name: String): Boolean {
             return name.length > 2 && "[A-Za-z']+".toRegex().matches(name)

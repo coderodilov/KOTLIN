@@ -1,4 +1,4 @@
-package registeration
+package registration
 interface CheckerInterface {
     fun checkName(name: String) : Boolean
     fun checkMail(mail: String) : Boolean
