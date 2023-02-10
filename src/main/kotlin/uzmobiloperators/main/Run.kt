@@ -1,4 +1,4 @@
-package uzmobiloperators
+package uzmobiloperators.main
 import java.time.LocalDate
 
 fun main() {

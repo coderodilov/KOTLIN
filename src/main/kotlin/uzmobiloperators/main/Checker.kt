@@ -1,4 +1,4 @@
-package uzmobiloperators
+package uzmobiloperators.main
 import uzmobiloperators.data.UserData
 import uzmobiloperators.util.CheckerInterface
 
