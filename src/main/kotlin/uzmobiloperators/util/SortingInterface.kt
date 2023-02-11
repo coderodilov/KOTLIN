@@ -2,7 +2,7 @@ package uzmobiloperators.util
 
 interface SortingInterface {
     fun searchUser()
-    fun userList()
+    fun allUsersList()
 
     fun sortByName()
     fun sortByBalance()
