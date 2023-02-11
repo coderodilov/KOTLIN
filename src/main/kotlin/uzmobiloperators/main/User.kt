@@ -61,6 +61,7 @@ class User : ServicesInterface, SortingInterface {
         listUser.add(UserData(company = "Uzmobile",phoneNumber = "+998999655875",fullName = "Lil Kallenga Hurramov", balance = 15870.00))
         listUser.shuffle()
     }
+
     override fun deleteUser() {
         var count = 0
         listUser.sortBy { it.fullName }
@@ -68,16 +69,21 @@ class User : ServicesInterface, SortingInterface {
             count++
             print("$count .")
             printUserInfo(it)
-
         }
-        println("input user id to delete:")
+        print("input user id to delete:")
         val userId = readln().toInt()
         listUser.removeAt(userId-1)
+        println(listUser[userId-1])
         println("-- user deleted ✅ --")
     }
 
     override fun searchUser() {
-        TODO("Not yet implemented")
+        print("Enter user name:")
+        val name = readln()
+        name.lowercase()
+        listUser.forEach {
+            if ( it.fullName.contains(name.capitalize()))   println(printUserInfo(it))
+        }
     }
 
     override fun userList() {
@@ -101,3 +107,4 @@ class User : ServicesInterface, SortingInterface {
     }
 
 }
+

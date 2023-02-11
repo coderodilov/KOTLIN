@@ -4,7 +4,7 @@ import uzmobiloperators.util.CheckerInterface
 
 class Checker : CheckerInterface{
     override fun checkName(name : String): Boolean {
-        return name.length > 2 && "[A-Za-z']+".toRegex().matches(name)
+        return name.length > 2 && "[A-Za-z ']+".toRegex().matches(name)
     }
     override fun checkPhone(phone: String): Boolean {
         return phone.length == 13 && "[0-9+]+".toRegex().matches(phone)

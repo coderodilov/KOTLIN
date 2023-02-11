@@ -19,15 +19,16 @@ fun main() {
         """.trimIndent())
         print("Select service: ")
 
-        when(readln().toInt()) {
-            1 -> user.sortingType()
-            2 -> user.addUser()
-            3 -> user.deleteUser()
-            4 -> user.searchUser()
-            5 -> {
+        when(readln()) {
+            "1" -> user.sortingType()
+            "2" -> user.addUser()
+            "3" -> user.deleteUser()
+            "4" -> user.searchUser()
+            "5" -> {
                 isExitSelected = false
                 println("Thank you, Come back again!")
             }
+            else -> println("Invalid operation selected!!!")
         }
     }
 
