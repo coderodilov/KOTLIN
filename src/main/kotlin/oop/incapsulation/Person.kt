@@ -4,6 +4,8 @@ package oop.incapsulation
 * Created on 12/02/23
 */
 
-class Person(name: String, age: Int, var hobby: String)
+data class Person(
+    var name: String,
+    var age: Int,
+    var hobby: String)
 
-// shu yerda variables private
