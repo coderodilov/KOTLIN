@@ -35,7 +35,7 @@ Kotlin Lessons with coder odilov
 
 ![Collections_](https://user-images.githubusercontent.com/91076403/215688034-3dc95388-ec48-41d1-87c7-aa7cf55f6c55.png)
 
-![Nullable values and null checks](https://user-images.githubusercontent.com/91076403/215688049-f008fcfc-9bda-4eb5-af9d-4c9ebae0ccd8.png)
+![Nullable values and nullable checks](https://user-images.githubusercontent.com/91076403/215688049-f008fcfc-9bda-4eb5-af9d-4c9ebae0ccd8.png)
 
 ![Type checks and automatic casts_](https://user-images.githubusercontent.com/91076403/215688067-16243c28-3712-40fa-bb01-6691033f0a3d.png)
 

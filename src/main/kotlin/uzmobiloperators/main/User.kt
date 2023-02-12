@@ -42,9 +42,9 @@ class User : ServicesInterface, SortingInterface {
             print("Enter full name: ")
             val fullName = readln()
             print("Enter your balance: ")
-            val balance = readln().toDouble()
+            val balance = readln()
 
-            val userData = UserData(company = listCompany[n-1],phoneNumber = "+998${phoneNumber.trim()}",fullName = formatUserName(fullName), balance = balance)
+            val userData = UserData(company = listCompany[n-1],phoneNumber = "+998${phoneNumber.trim()}",fullName = formatUserName(fullName), balance = balance.toDouble())
 
             if (Checker().checkAll(userData)) {
                 listUser.add(userData)
@@ -103,25 +103,41 @@ class User : ServicesInterface, SortingInterface {
     private fun searchByName(){
         print("Enter name: ")
         val name = readln()
+        var counter = 0
         listUser.forEach {
-            if ( it.fullName.contains(name.trim().lowercase().capitalize()))  printUserInfo(it)
+            if ( it.fullName.contains(name.trim().lowercase().capitalize()))  {
+                counter++
+                printUserInfo(it)
+            }
         }
+        if (counter == 0) println("User not found ❌")
     }
 
     private fun searchByLastName(){
         print("Enter lastname: ")
         val name = readln()
+        var counter = 0
         listUser.forEach {
-            if (it.fullName.contains(name.trim().lowercase().capitalize()))   printUserInfo(it)
+            if (it.fullName.contains(name.trim().lowercase().capitalize()))   {
+                counter++
+                printUserInfo(it)
+            }
         }
+        if (counter == 0) println("User not found ❌")
     }
 
     private fun searchByCompany(){
         print("Enter company name: ")
         val name = readln()
+        var counter = 0
         listUser.forEach {
-            if ( it.company.contains(name.trim().lowercase().capitalize()))  printUserInfo(it)
+
+            if ( it.company.contains(name.trim().lowercase().capitalize())) {
+                counter++
+                printUserInfo(it)
+            }
         }
+        if (counter == 0) println("User not found ❌")
     }
 
     //endregion
