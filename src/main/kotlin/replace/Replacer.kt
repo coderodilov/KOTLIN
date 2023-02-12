@@ -14,9 +14,8 @@ fun main() {
         .replace("B", "Б")
         .replace("C", "C")
         .replace("D", "Д")
-        .replace("E","Е")
+        .replace("E", "Е")
         .replace("F", "Ф")
         .replace("G", "Г")
     println(temp)
-
 }
