@@ -3,7 +3,7 @@ package oop.polimorfism
 /*
 * Creator Coder Odilov
 * Created on 13/02/23
-*/class GetMax {
+*/class Math {
     fun getMax(a: Int, b: Int): Int {
         return if (a > b) a else b
     }
