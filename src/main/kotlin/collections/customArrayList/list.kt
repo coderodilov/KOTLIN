@@ -12,6 +12,7 @@ fun main() {
     myList.add(Model("Alisha", 27, 5))
     myList.add(Model("Zoomrad", 32, 6))
 
+    myList.sortByDescending { it.id }
     //Printing each element of list
     myList.forEach {
         //function formatter

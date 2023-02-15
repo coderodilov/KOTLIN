@@ -1,11 +1,11 @@
 package reflection
-
 /*
 * Creator Coder Odilov
 * Created on 13/02/23
 */
+
 fun main() {
-    var workers = listOf<String>(
+    var workers = listOf(
         "Odilov", "Karimov", "Toshboyeva", "Azimova", "Toshboyev", "Odilova"
     )
 
@@ -20,7 +20,7 @@ fun main() {
     """.trimIndent())
 
     print("Tanlang: ")
-   when(readln().toString().trim()){
+   when(readln().trim()){
         "1" -> workers =  workers.filter(::males)
         "2" -> workers =  workers.filter(::female)
         "3" -> workers
