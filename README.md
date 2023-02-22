@@ -1,5 +1,5 @@
 # Kotlin
-Kotlin Lessons with coder odilov
+Kotlin with coder odilov
 
 ![Why Kotlin](https://user-images.githubusercontent.com/91076403/215275958-ba282a42-a6a1-4d0e-8468-dd2e130bedb8.png)
 
